@@ -47,7 +47,7 @@ body{
 }
 
 .testimonial {
-    background-color: #eef;
+    background-color: #777;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -56,7 +56,7 @@ body{
 .testimonial .author {
     text-align: right;
     font-style: italic;
-    color: #777;
+    color: #f5f3f3;
 }
 
 .contact-details p {
@@ -69,12 +69,18 @@ body{
 }
 
 h2 {
-    color: #0056b3; /* Example heading color */
+    color: #fbfcfc; /* Example heading color */
     margin-bottom: 20px;
     text-align: center;
 }
 
 h3 {
+    color: #00050a; /* Example heading color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-item p {
     color: #00050a; /* Example heading color */
     margin-bottom: 20px;
     text-align: center;
