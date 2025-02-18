@@ -1,0 +1,110 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out logo, menu, and login */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Implemented gap: 10px; to create space between logo and title */
+}
+
+.navbar-logo {
+    height: 40px; /* Adjust logo size */
+    margin-right: 0; /* Removed margin-right as gap is now handling spacing */
+}
+
+.navbar-title {
+    font-size: 1.5em; /* Adjust title size */
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Horizontal menu */
+    align-items: center;
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Spacing between menu items */
+    font-weight: bold;
+    color: #333; /* Dark grey text color for menu */
+}
+
+.nav-menu li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+}
+
+
+.nav-login button {
+    background-color: #f0f0f0; /* Match navbar background */
+    color: black; /* Black text for button */
+    border: 1px solid black; /* Black border */
+    padding: 8px 15px;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-login button:hover {
+    background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+  }
+
+  .nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #040338;
+}
+
+.nav-login button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+
+.nav-login button:active { /* Click effect */
+    background-color: #e0e0e0;
+    transform: scale(0.98); /* Example: slightly scale down on click */
+}
