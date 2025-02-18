@@ -108,3 +108,10 @@
     background-color: #e0e0e0;
     transform: scale(0.98); /* Example: slightly scale down on click */
 }
+
+/* Navbar.css or global CSS */
+.navbar { /* Or your navbar class */
+    /* ... other navbar styles ... */
+    margin-bottom: 0; /* Remove bottom margin if present */
+    padding-bottom: 10px; /* Adjust padding if needed, try reducing it */
+}
