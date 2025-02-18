@@ -11,7 +11,7 @@ const Teachers = () => {
             <div className="teachers-list-container">
                 {teachersList.map(teacher => (
                     <div key={teacher.id} className="teacher-item">
-                        <img src={image} alt={teacher.name} className="teacher-item-image" />
+                        <img src={teacher.image} alt={teacher.name} className="teacher-item-image" />
                         <div className="teacher-item-details">
                             <h2>{teacher.name}</h2>
                             <p className="teacher-item-subject">
