@@ -1,0 +1,67 @@
+.home-page {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us-section, .features-section, .testimonials-section, .contact-section {
+    padding: 40px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.feature-item i {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #007bff; /* Example icon color */
+}
+
+.testimonial-slider {
+    /* Style your slider here if you use one */
+    margin-top: 20px;
+}
+
+.testimonial {
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.testimonial .author {
+    text-align: right;
+    font-style: italic;
+    color: #777;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h2 {
+    color: #0056b3; /* Example heading color */
+    margin-bottom: 20px;
+    text-align: center;
+}
