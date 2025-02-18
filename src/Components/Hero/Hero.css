@@ -1,7 +1,7 @@
 /* Hero.css */
 
 .hero-section {
-  background: linear-gradient(180deg, #A7C7E7, #e1ffea22 60%);
+  background: linear-gradient(180deg, #02111f, #19229c22 60%);
   padding: 50px 0; /* Adjust padding as needed */
 }
 
@@ -27,14 +27,14 @@
 .hero-title {
   font-size: 3.5em; /* Enlarge the title - adjust as needed */
   font-weight: bold;
-  color: #0056b3; /* Dark blue color for title - adjust as needed */
+  color: #fbfcfd; /* Dark blue color for title - adjust as needed */
   margin-bottom: 15px; /* Spacing below the title */
   line-height: 1.1; /* Adjust line height for better readability */
 }
 
 .hero-subtitle {
   font-size: 1.8em; /* Enlarge the subtitle - adjust as needed */
-  color: #333; /* Dark gray color for subtitle - adjust as needed */
+  color: #fbfcfd; /* Dark gray color for subtitle - adjust as needed */
   line-height: 1.4; /* Adjust line height for better readability */
   max-width: 80%; /* Limit subtitle width for better readability */
 }
