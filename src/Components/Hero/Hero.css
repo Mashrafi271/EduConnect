@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 10vh;
     background: linear-gradient(180deg, #A7C7E7, #e1ffea22 60%);
     display: flex;
   }
@@ -14,14 +14,16 @@
     line-height: 1.1;
   }
 
-  .hero-left h2 {
+  .hero-left h1 {
     color: #090909;
     font-size: 26px;
     font-weight: 600;
+    text-align: center;
   }
 
   .hero-left p {
     color: #171717;
     font-size: 100px;
     font-weight: 700;
+    
   }
