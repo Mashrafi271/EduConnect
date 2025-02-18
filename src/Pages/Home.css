@@ -1,3 +1,11 @@
+body{
+    background-image: url(aboutus.jpg); /* Add background image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cnter;
+    background-attachment: fixed;
+}
+
 .home-page {
     font-family: sans-serif;
     color: #333;
