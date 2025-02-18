@@ -2,7 +2,6 @@
 import React from 'react';
 import teachersList from '../Components/Assets/raw_data/teachersList'; // Adjust path if needed
 import './Teachers.css';
-import image from '../Components/Assets/img_data/defaultimg2.jpg'; // Adjust path if needed
 
 const Teachers = () => {
     return (

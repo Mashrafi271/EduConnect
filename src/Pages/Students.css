@@ -3,12 +3,12 @@
 .students-page {
     font-family: poppins, sans-serif;
     padding: 20px;
-    background: linear-gradient(180deg, #A7C7E7, #e1ffea22 60%);
+   
 }
 
 .students-page h1 {
     text-align: center;
-    color: #333;
+    color: #fefbfb;
     margin-bottom: 20px;
 }
 

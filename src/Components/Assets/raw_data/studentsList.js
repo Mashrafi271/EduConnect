@@ -1,5 +1,11 @@
 // studentsList.js
-//const defaultProfileImagePath = "../Components/Assets/img_data/defaultimg1.jpg"; // Define the default image path
+
+import student1Img from '../img_data/students/student.jpg';
+import student2Img from '../img_data/students/student2.jpg';
+import student3Img from '../img_data/students/student3.jpg';
+import student4Img from '../img_data/students/student4.jpg';
+import student5Img from '../img_data/students/student5.jpg';
+import student6Img from '../img_data/students/student6.png';
 
 const studentsList = [
   {
@@ -13,7 +19,7 @@ const studentsList = [
           "email": "anika.rahman@student.com",
           "phone": "+8801311445566"
       },
-      "profilePicture": null,
+      "image": student1Img,
       "learningGoals": "Improving grades in Math and Physics, preparing for upcoming exams."
   },
   {
@@ -27,7 +33,7 @@ const studentsList = [
           "email": "rafiul.islam@student.com",
           "phone": "+8801422556677"
       },
-      "profilePicture": "",
+      "image": student2Img,
       "learningGoals": "Learning web development with React, building personal projects for portfolio."
   },
   {
@@ -41,7 +47,7 @@ const studentsList = [
           "email": "zara.khan@student.com",
           "phone": "+8801733667788"
       },
-      "profilePicture": "",
+      "image": student3Img,
       "learningGoals": "Improving English grammar and Bengali writing skills."
   },
   {
@@ -55,7 +61,7 @@ const studentsList = [
           "email": "taqi.ahmed@student.com",
           "phone": "+8801944778899"
       },
-      "profilePicture": "",
+      "image": student4Img,
       "learningGoals": "Need help with introductory economics and accounting courses at the college level."
   },
   {
@@ -69,7 +75,7 @@ const studentsList = [
           "email": "nayla.hossain@student.com",
           "phone": "+8801655889900"
       },
-      "profilePicture": "",
+      "image": student5Img,
       "learningGoals": "Want to get ahead in science subjects and build a strong foundation for high school."
   }
   ,
@@ -84,7 +90,7 @@ const studentsList = [
       "email": "farhan.ahmed@student.com",
       "phone": "+8801766778899"
     },
-    "profilePicture": "",
+    "image": student6Img,
     "learningGoals": "Enhancing knowledge in History and Geography, preparing for O-level exams."
   }
 ];

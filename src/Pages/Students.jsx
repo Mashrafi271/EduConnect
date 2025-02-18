@@ -7,11 +7,11 @@ import image from '../Components/Assets/img_data/defaultimg1.jpg'; // Adjust pat
 const Students = () => {
     return (
         <div className="students-page">
-            <h1>Our Students</h1>
+            <h1>Our Top Students</h1>
             <div className="students-list-container">
                 {studentsList && studentsList.length > 0 ? studentsList.map(student => (
                     <div key={student.id} className="student-item">
-                        <img src={student.profilePicture || image} alt={student.name} className="student-item-image" />
+                        <img src={student.image || image} alt={student.name} className="student-item-image" />
                         <div className="student-item-details">
                             <h2>{student.name}</h2>
                             <div className="student-item-contact">
