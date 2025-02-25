@@ -15,14 +15,16 @@ const Navbar = () => {
             </div>
 
             <ul className="nav-menu">
-                <li onClick={()=>{setMenu("home")}}><Link style={{textDecoration: 'none'}} to='/'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("teachers")}}><Link style={{textDecoration: 'none'}} to='/teachers'>Teachers</Link>{menu==="teachers"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("students")}}><Link style={{textDecoration: 'none'}} to='/students'>Students</Link>{menu==="students"?<hr/>:<></>}</li>
-                
+                <li onClick={() => { setMenu("home") }}><Link style={{ textDecoration: 'none' }} to='/'>Home</Link>{menu === "home" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("teachers") }}><Link style={{ textDecoration: 'none' }} to='/teachers'>Teachers</Link>{menu === "teachers" ? <hr /> : <></>}</li>
+                <li onClick={() => { setMenu("students") }}><Link style={{ textDecoration: 'none' }} to='/students'>Students</Link>{menu === "students" ? <hr /> : <></>}</li>
+
             </ul>
 
             <div className="nav-login">
-            <Link to='/login_signup'></Link><button>Login</button>
+                <Link to="/login_signup">
+                    <button>Login</button>
+                </Link>
             </div>
 
         </div>

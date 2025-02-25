@@ -1,0 +1,67 @@
+/* LoginSignup.css */
+
+.login-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optional: Center vertically on the viewport */
+    font-family: poppins, sans-serif;
+  }
+  
+  .login-signup-container h2 {
+    margin-bottom: 20px;
+    color: #f5eeee;
+  }
+  
+  .login-signup-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff; /* Button color */
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .login-signup-container button:hover {
+    background-color: #0056b3; /* Darker on hover */
+  }
+  
+  .login-signup-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-signup-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-signup-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .login-signup-container form button[type="submit"] {
+    background-color: #28a745; /* Submit button color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-signup-container form button[type="submit"]:hover {
+    background-color: #218838;
+  }

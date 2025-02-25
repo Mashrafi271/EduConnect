@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} /> {/* Defines a route for the homepage ("/") and renders the Home component when this path is matched */}
           <Route path="/teachers" element={<Teachers category="teachers" />} /> {/* Defines a route for the "/teachers" path and renders the Teachers component, passing "teachers" as a category prop */}
           <Route path="/students" element={<Students category="students" />} /> {/* Defines a route for the "/students" path and renders the Students component, passing "students" as a category prop */}
-          <Route path="/login" element={<LoginSignup />} />
+          <Route path="/login_signup" element={<LoginSignup />} />
         </Routes> {/* Closes the Routes component, encapsulating all defined routes */}
       </BrowserRouter>
     </div>
