@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import './LoginSignup.css';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+
+const clientId = '363756261357-a00qp74lnhu8v7sktsn5scsr8av4cn33.apps.googleusercontent.com';
 
 const LoginSignup = () => {
     const [isLogin, setIsLogin] = useState(true); // Toggle between login and signup
